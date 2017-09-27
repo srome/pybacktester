@@ -2,7 +2,7 @@ from multiprocessing import Process, Queue
 import numpy as np
 import pandas as pd
 import datetime as dt
-from pandas.io.data import DataReader
+from pandas_datareader import DataReader
 from algorithm import Algorithm
 from domain import Portfolio
 import logging
